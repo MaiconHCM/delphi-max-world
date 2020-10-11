@@ -1,0 +1,9 @@
+inherited Form1_Windows: TForm1_Windows
+  DesignerMasterStyle = 0
+  inherited pnlGame: TPanel
+    inherited ScrollBox1: TScrollBox
+      Viewport.Width = 637.000000000000000000
+      Viewport.Height = 306.000000000000000000
+    end
+  end
+end

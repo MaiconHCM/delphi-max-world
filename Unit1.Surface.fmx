@@ -1,0 +1,19 @@
+inherited Form1_Surface: TForm1_Surface
+  ClientHeight = 1920
+  ClientWidth = 1080
+  DesignerMasterStyle = 0
+  inherited pnlGame: TPanel
+    Size.Width = 1080.000000000000000000
+    Size.Height = 1920.000000000000000000
+    inherited ScrollBox1: TScrollBox
+      Size.Width = 1080.000000000000000000
+      Size.Height = 1896.000000000000000000
+      Viewport.Width = 1080.000000000000000000
+      Viewport.Height = 1896.000000000000000000
+    end
+    inherited edtChat: TEdit
+      Position.Y = 1896.000000000000000000
+      Size.Width = 1080.000000000000000000
+    end
+  end
+end

@@ -1,0 +1,28 @@
+object frmplayersOnline: TfrmplayersOnline
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 355
+  ClientWidth = 210
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object vrtscrlbx: TVertScrollBox
+    Position.Y = 32.000000000000000000
+    Size.Width = 209.000000000000000000
+    Size.Height = 321.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 209.000000000000000000
+    Viewport.Height = 321.000000000000000000
+  end
+  object lblPlayerOnline: TLabel
+    StyledSettings = [FontColor]
+    Position.Y = 8.000000000000000000
+    TextSettings.Font.Family = 'Tekton Pro'
+    TextSettings.Font.Size = 16.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'Jogadores Online'
+  end
+end

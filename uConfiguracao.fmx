@@ -1,0 +1,35 @@
+object frmConfiguracao: TfrmConfiguracao
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 203
+  ClientWidth = 298
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object chbTempoReal: TCheckBox
+    Position.X = 8.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 249.000000000000000000
+    Size.Height = 19.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Efetuar atualiza'#231#227'o em tempo real'
+  end
+  object btnconfirmar: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 168.000000000000000000
+    TabOrder = 1
+    Text = 'Confirmar'
+    OnClick = btnconfirmarClick
+  end
+  object btnCancelar: TButton
+    Position.X = 200.000000000000000000
+    Position.Y = 168.000000000000000000
+    TabOrder = 3
+    Text = 'Cancelar'
+    OnClick = btnCancelarClick
+  end
+end

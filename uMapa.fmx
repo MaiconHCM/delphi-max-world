@@ -1,0 +1,35 @@
+object frmMapa: TfrmMapa
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 385
+  ClientWidth = 329
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object vrtscrlbx: TVertScrollBox
+    Position.Y = 32.000000000000000000
+    Size.Width = 329.000000000000000000
+    Size.Height = 350.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 329.000000000000000000
+    Viewport.Height = 350.000000000000000000
+  end
+  object lblPlayerOnline: TLabel
+    StyledSettings = [FontColor]
+    Position.Y = 8.000000000000000000
+    TextSettings.Font.Family = 'Tekton Pro'
+    TextSettings.Font.Size = 16.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'Lista de Mapas'
+  end
+  object btnCriar: TButton
+    Position.X = 248.000000000000000000
+    Position.Y = 8.000000000000000000
+    TabOrder = 1
+    Text = 'Criar Mapa'
+    OnClick = btnCriarClick
+  end
+end
